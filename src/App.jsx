@@ -1,16 +1,8 @@
-import './App.css'
+// import './App.css'
 
 function App() {
     return (
         <>
-        <div className="navbar mx-auto mb-80 border border-1">
-            <ul className="botoes-navbar">
-                <li className="mr-auto"><h1 className="d-inline logotipo">Leonardo</h1></li>
-                <li className="ml-auto btn">Experiência</li>
-                <li className="btn">Formação</li>
-                <li className="btn">Contato</li>
-            </ul>
-        </div>
         <header className="d-flex">
             <img
                 className="col-4 border-radius-5"
