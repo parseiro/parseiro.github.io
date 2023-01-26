@@ -9,7 +9,7 @@ export function Cabecalho() {
             />
             <div
                 className="flex flex-col md:justify-center items-start md:pl-32 md:justify-items-stretch w-screen">
-                <h1 className="color-gray-12 text-7xl font-bold">Desenvolvedor Full Stack</h1>
+                <h1 className="color-gray-g12 text-7xl font-bold">Desenvolvedor Full Stack</h1>
                 <h2 className="color-gray-g7 text-2xl font-medium">Localização: Curitiba, Paraná, Brasil</h2>
             </div>
         </div>
