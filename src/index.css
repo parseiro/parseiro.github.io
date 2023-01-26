@@ -4,14 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+/*html {
     max-width: 1160px;
-}
-
-.d-inline {
-    display: inline;
-}
-
+}*/
 
 .card-title {
     font-family: "Fira Sans", sans-serif;
