@@ -5,7 +5,7 @@ const experiencias = [
     {
         ano: '2022',
         projeto: "Leitões Grill",
-        desc: "<a href='https://deliciasdacarn8.wixsite.com/meusite/' target='_blank' class='underline'>Este website</a> foi refeito <a href='https://parseiro.github.io/leitoesGrill' target='_blank' class='underline'>desta forma</a>. Também foi implementado como tema de Wordpress, mas essa versão não está no ar.",
+        desc: "<a href='https://deliciasdacarn8.wixsite.com/meusite/' target='_blank' class='underline'>Este website</a> foi refeito <a href='https://parseiro.github.io/leitoesGrill' target='_blank' class='underline'>desta forma</a>. Também já foi implementado como tema Wordpress.",
         myRole: 'Developer',
         technologies: ['HTML', 'CSS', 'Wordpress', 'Tailwind & Flowbite'],
     },
@@ -109,15 +109,11 @@ const experiencias = [
         },*/
 ];
 
-export function Experiencia() {
+export function Portfolio() {
     return (
         <div id="portfolio"
-             className="flex flex-col items-end gap-y-7 lg:grid lg:grid-cols-12 lg:gap-10 lg:items-stretch mb-[120px]">
-            <p className="font-fira text-2xl font-medium leading-10 text-gray-g9 lg:col-start-6 lg:col-end-12">
-                Desenvolvo pequenos projetos utilizando
-                <span
-                    className="font-bold text-gray-g10"> HTML, CSS, Javascript, Wordpress, Angular, React, Spring Boot</span>
-            </p>
+             /*className="flex flex-col items-end gap-y-7 lg:grid lg:grid-cols-12 lg:gap-10 lg:items-stretch mb-[120px]">*/
+            className="grid grid-cols-12 gap-y-8 lg:gap-x-10 items-stretch mb-[120px]">
 
             {experiencias.map((xp, index) => <Empresa key={index} anos={xp.ano} projeto={xp.projeto} desc={xp.desc}
                                                       myRole={xp.myRole} technologies={xp.technologies}/>)}

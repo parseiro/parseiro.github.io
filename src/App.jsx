@@ -1,5 +1,5 @@
 import './App.css';
-import {Experiencia} from "./Experiencia.jsx";
+import {Portfolio} from "./Portfolio.jsx";
 import Menu from "./Menu.jsx";
 import React from "react";
 import {Formacao} from "./Formacao.jsx";
@@ -11,7 +11,7 @@ function App() {
         <>
             <Menu/>
             <Introducao/>
-            <Experiencia/>
+            <Portfolio/>
             <Formacao/>
             <Contato/>
         </>
