@@ -1,6 +1,4 @@
-import './Header.css';
-
-function Header() {
+function Menu() {
     return (<>
         <header className="opacity-70 font-fira">
             <nav className="rounded bg-gray-g1 px-2 py-10 sm:px-4">
@@ -52,4 +50,4 @@ function Header() {
     </>);
 }
 
-export default Header;
+export default Menu;
