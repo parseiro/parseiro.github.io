@@ -8,10 +8,10 @@ export default function Empresa({anos, projeto, desc, myRole, technologies}) {
                 lg:grid lg:grid-cols-7 lg:gap-10">
                 <div className="lg:col-start-1 lg:col-span-4">
                     <div className="font-fira font-bold leading-5 text-2xl mb-5 text-gray-g10">{projeto}</div>
-                    <div className="font-fira text-2xl text-gray-10" dangerouslySetInnerHTML={{ __html: desc }}></div>
+                    <div className="font-fira text-2xl text-gray-g10" dangerouslySetInnerHTML={{ __html: desc }}></div>
                 </div>
                 <div className="lg:col-start-5 lg:col-span-3">
-                    <div className="job-title text-gray-10">{myRole}</div>
+                    {/*<div className="job-title text-gray-g10">{myRole}</div>*/}
                     <ul className="caixinhas">
                         {technologies.map((tec) => <li key={tec} className="caixinha">{tec}</li>)}
                     </ul>
