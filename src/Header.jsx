@@ -2,9 +2,9 @@ import './Header.css';
 
 function Header() {
     return (<>
-        <header className="border-1 border-red-500 opacity-70 font-fira">
-            <nav className="rounded bg-white px-2 py-10 sm:px-4">
-                <div className="container mx-auto flex flex-wrap items-center justify-between">
+        <header className="opacity-70 font-fira">
+            <nav className="rounded bg-gray-g1 px-2 py-10 sm:px-4">
+                <div className="container mx-auto flex flex-wrap items-center justify-between text-gray-g12">
                     <p className="font-bold text-5xl leading-[60px]">Leonardo</p>
                     <button
                         data-collapse-toggle="navbar-default"
@@ -29,7 +29,7 @@ function Header() {
                         </svg>
                     </button>
                     <div className="hidden w-full sm:block sm:w-auto" id="navbar-default">
-                        <ul className="flex justify-between flex-wrap text-lg sm:gap-x-12">
+                        <ul className="flex justify-between flex-wrap text-lg sm:gap-x-12 font-medium">
                             <li className="current-menu-item">
                                 <a
                                     href="#portfolio"

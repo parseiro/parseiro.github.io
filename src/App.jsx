@@ -1,6 +1,7 @@
 import './App.css';
-import {Cabecalho} from "./Cabecalho.jsx";
 import {Experiencia} from "./Experiencia.jsx";
+import Header from "./Header.jsx";
+import React from "react";
 
 const experiencias = [
     {
@@ -57,7 +58,7 @@ const experiencias = [
 function App() {
     return (
         <>
-            <Cabecalho />
+            <Header/>
             <Experiencia experiencias={experiencias}/>
         </>
     )
