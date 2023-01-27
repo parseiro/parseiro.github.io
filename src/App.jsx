@@ -14,6 +14,7 @@ function App() {
             <Portfolio/>
             <Formacao/>
             <Contato/>
+            <div className="mb-[120px]"></div>
         </>
     )
 }
