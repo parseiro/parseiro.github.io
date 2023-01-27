@@ -1,7 +1,7 @@
 export function Contato() {
     return (
         <div id="contato"
-             className="font-fira text-4xl text-gray-g12 leading-[60px] flex flex-col items-end gap-y-7 lg:grid
+             className="font-fira prose text-gray-g12 md:text-4xl md:leading-[60px] flex flex-col items-end gap-y-7 lg:grid
              lg:grid-cols-12 lg:gap-10 lg:items-stretch mb-[120px]">
             <p className="lg:col-start-1 lg:col-span-6">
                 Estou disponível para novos projetos. Por favor, entre em contato.
