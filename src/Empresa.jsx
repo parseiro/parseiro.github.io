@@ -10,7 +10,7 @@ export default function Empresa({anos, projeto, desc, myRole, technologies}) {
                 grid grid-cols-7">
                 <div className="m-5 col-start-1 col-end-5">
                     <div className="font-fira font-bold text-2xl leading-5 mb-5 text-gray-g10">{projeto}</div>
-                    <div className="font-fira text-2xl text-gray-g10" dangerouslySetInnerHTML={{ __html: desc }}></div>
+                    <div className="font-fira prose text-gray-g10" dangerouslySetInnerHTML={{ __html: desc }}></div>
                 </div>
                 <div className="my-5 col-start-5 col-end-8">
                     <div className="job-title text-gray-g10">{' '}</div>

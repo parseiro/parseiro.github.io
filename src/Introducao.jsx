@@ -9,8 +9,8 @@ export function Introducao() {
                 src={foto}
                 alt="Foto de Leonardo"
             />
-            <div className="lg:col-start-6 md:col-span-6">
-                <h1 className="font-fira text-gray-g12 prose font-bold sm:text-4xl md:text-7xl md:leading-[5rem]">Desenvolvedor Full
+            <div className="lg:col-start-6 md:col-end-13">
+                <h1 className="font-fira text-gray-g12 font-bold sm:text-2xl md:text-7xl md:leading-[5rem]">Desenvolvedor Full
                     Stack</h1>
                 <h2 className="font-fira text-gray-g7 md:text-2xl font-medium">Localização: Curitiba, Brasil</h2>
             </div>

@@ -33,7 +33,7 @@ const experiencias = [
     {
         ano: '2022',
         projeto: "Utilitário Dengue",
-        desc: "<a href='https://github.com/parseiro/calculadora-hidratacao-na-dengue' target='_blank' class='underline'>Calculadora de hidratação</a> para médicos",
+        desc: "<a href='https://parseiro.github.io/calculadora-hidratacao-na-dengue/#/patientEdit' target='_blank' class='underline'>Calculadora de hidratação</a> (na dengue) para médicos",
         myRole: 'Developer',
         technologies: ['Figma', 'HTML', 'CSS', 'Typescript', 'Angular', 'Bootstrap', 'Angular Material'],
     },
